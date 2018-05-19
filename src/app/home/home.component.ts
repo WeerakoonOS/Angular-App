@@ -6,16 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  public cards: Array<any> = [
-    { text: 'Card 1'},
-    { text: 'Card 2'},
-    { text: 'Card 3'},
-    { text: 'Card 4'},
-    { text: 'Card 5'},
-    { text: 'Card 6'}
-  ];
-
+  imgUrl = '../../assets/logo.png';
+  sentence = 'I love angular';
+  changeMe() {
+    // tslint:disable-next-line:quotemark
+    this.sentence = 'But it is hard to learn';
+  }
   constructor() { }
 
   ngOnInit() {

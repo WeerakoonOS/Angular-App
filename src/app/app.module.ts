@@ -9,6 +9,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CardComponent } from './card/card.component';
 import { CardListComponent } from './card-list/card-list.component';
+import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProductsComponent } from './products/products.component';
+import { CardDetailComponent } from './card-detail/card-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { CardListComponent } from './card-list/card-list.component';
     CardComponent,
     CardListComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    AboutComponent,
+    NavbarComponent,
+    ContactComponent,
+    ProductsComponent,
+    CardDetailComponent
   ],
   imports: [
     BrowserModule,

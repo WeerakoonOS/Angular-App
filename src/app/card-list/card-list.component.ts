@@ -5,6 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './card-list.component.html',
   styleUrls: ['./card-list.component.css']
 })
+
 export class CardListComponent implements OnInit {
 
 @Input() cardsData: Array<any>;
